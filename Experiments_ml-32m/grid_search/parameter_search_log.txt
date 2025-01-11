@@ -1,0 +1,472 @@
+2025-01-10 23:58:31,132 - INFO - Training with lambda_reg=0.1, gamma=0.01, taw=1, K_factors=30
+2025-01-10 23:58:46,610 - INFO - Epoch 1, Valid RMSE: 0.8871
+2025-01-10 23:58:57,628 - INFO - Epoch 2, Valid RMSE: 0.8174
+2025-01-10 23:59:07,699 - INFO - Epoch 3, Valid RMSE: 0.7959
+2025-01-10 23:59:17,546 - INFO - Epoch 4, Valid RMSE: 0.7882
+2025-01-10 23:59:27,371 - INFO - Epoch 5, Valid RMSE: 0.7844
+2025-01-10 23:59:40,349 - INFO - Epoch 6, Valid RMSE: 0.7823
+2025-01-10 23:59:50,789 - INFO - Epoch 7, Valid RMSE: 0.7811
+2025-01-11 00:00:00,741 - INFO - Epoch 8, Valid RMSE: 0.7802
+2025-01-11 00:00:10,753 - INFO - Epoch 9, Valid RMSE: 0.7796
+2025-01-11 00:00:22,504 - INFO - Epoch 10, Valid RMSE: 0.7792
+2025-01-11 00:00:22,504 - INFO - Best Params: {'lambda_reg': 0.1, 'gamma': 0.01, 'taw': 1, 'K_factors': 30}
+2025-01-11 00:00:22,504 - INFO - Best Train RMSE: 0.6372, Best Valid RMSE: 0.7792
+2025-01-11 00:00:22,504 - INFO - Training with lambda_reg=0.1, gamma=0.01, taw=10, K_factors=30
+2025-01-11 00:00:34,421 - INFO - Epoch 1, Valid RMSE: 0.8711
+2025-01-11 00:00:45,934 - INFO - Epoch 2, Valid RMSE: 0.8085
+2025-01-11 00:00:56,093 - INFO - Epoch 3, Valid RMSE: 0.7930
+2025-01-11 00:01:06,019 - INFO - Epoch 4, Valid RMSE: 0.7886
+2025-01-11 00:01:16,222 - INFO - Epoch 5, Valid RMSE: 0.7867
+2025-01-11 00:01:26,528 - INFO - Epoch 6, Valid RMSE: 0.7857
+2025-01-11 00:01:36,602 - INFO - Epoch 7, Valid RMSE: 0.7851
+2025-01-11 00:01:47,911 - INFO - Epoch 8, Valid RMSE: 0.7848
+2025-01-11 00:01:58,711 - INFO - Epoch 9, Valid RMSE: 0.7846
+2025-01-11 00:02:10,535 - INFO - Epoch 10, Valid RMSE: 0.7845
+2025-01-11 00:02:10,535 - INFO - Best Params: {'lambda_reg': 0.1, 'gamma': 0.01, 'taw': 1, 'K_factors': 30}
+2025-01-11 00:02:10,535 - INFO - Best Train RMSE: 0.6372, Best Valid RMSE: 0.7792
+2025-01-11 00:02:10,535 - INFO - Training with lambda_reg=0.1, gamma=0.01, taw=100, K_factors=30
+2025-01-11 00:02:20,771 - INFO - Epoch 1, Valid RMSE: 0.8758
+2025-01-11 00:02:34,764 - INFO - Epoch 2, Valid RMSE: 0.8541
+2025-01-11 00:02:45,004 - INFO - Epoch 3, Valid RMSE: 0.8541
+2025-01-11 00:02:55,295 - INFO - Epoch 4, Valid RMSE: 0.8547
+2025-01-11 00:03:07,044 - INFO - Epoch 5, Valid RMSE: 0.8551
+2025-01-11 00:03:17,529 - INFO - Epoch 6, Valid RMSE: 0.8554
+2025-01-11 00:03:27,811 - INFO - Epoch 7, Valid RMSE: 0.8556
+2025-01-11 00:03:38,096 - INFO - Epoch 8, Valid RMSE: 0.8557
+2025-01-11 00:03:51,747 - INFO - Epoch 9, Valid RMSE: 0.8558
+2025-01-11 00:04:02,082 - INFO - Epoch 10, Valid RMSE: 0.8558
+2025-01-11 00:04:02,082 - INFO - Best Params: {'lambda_reg': 0.1, 'gamma': 0.01, 'taw': 1, 'K_factors': 30}
+2025-01-11 00:04:02,082 - INFO - Best Train RMSE: 0.6372, Best Valid RMSE: 0.7792
+2025-01-11 00:04:02,082 - INFO - Training with lambda_reg=0.1, gamma=0.1, taw=1, K_factors=30
+2025-01-11 00:04:12,954 - INFO - Epoch 1, Valid RMSE: 0.8828
+2025-01-11 00:04:23,474 - INFO - Epoch 2, Valid RMSE: 0.8114
+2025-01-11 00:04:38,261 - INFO - Epoch 3, Valid RMSE: 0.7932
+2025-01-11 00:04:48,492 - INFO - Epoch 4, Valid RMSE: 0.7862
+2025-01-11 00:04:58,891 - INFO - Epoch 5, Valid RMSE: 0.7829
+2025-01-11 00:05:08,884 - INFO - Epoch 6, Valid RMSE: 0.7812
+2025-01-11 00:05:19,491 - INFO - Epoch 7, Valid RMSE: 0.7802
+2025-01-11 00:05:29,911 - INFO - Epoch 8, Valid RMSE: 0.7796
+2025-01-11 00:05:40,211 - INFO - Epoch 9, Valid RMSE: 0.7792
+2025-01-11 00:05:50,464 - INFO - Epoch 10, Valid RMSE: 0.7790
+2025-01-11 00:05:50,464 - INFO - Best Params: {'lambda_reg': 0.1, 'gamma': 0.1, 'taw': 1, 'K_factors': 30}
+2025-01-11 00:05:50,464 - INFO - Best Train RMSE: 0.6384, Best Valid RMSE: 0.7790
+2025-01-11 00:05:50,464 - INFO - Training with lambda_reg=0.1, gamma=0.1, taw=10, K_factors=30
+2025-01-11 00:06:02,272 - INFO - Epoch 1, Valid RMSE: 0.8705
+2025-01-11 00:06:17,598 - INFO - Epoch 2, Valid RMSE: 0.8095
+2025-01-11 00:06:29,967 - INFO - Epoch 3, Valid RMSE: 0.7923
+2025-01-11 00:06:40,048 - INFO - Epoch 4, Valid RMSE: 0.7878
+2025-01-11 00:06:50,021 - INFO - Epoch 5, Valid RMSE: 0.7859
+2025-01-11 00:07:00,080 - INFO - Epoch 6, Valid RMSE: 0.7850
+2025-01-11 00:07:10,153 - INFO - Epoch 7, Valid RMSE: 0.7845
+2025-01-11 00:07:20,138 - INFO - Epoch 8, Valid RMSE: 0.7843
+2025-01-11 00:07:30,130 - INFO - Epoch 9, Valid RMSE: 0.7841
+2025-01-11 00:07:40,107 - INFO - Epoch 10, Valid RMSE: 0.7840
+2025-01-11 00:07:40,107 - INFO - Best Params: {'lambda_reg': 0.1, 'gamma': 0.1, 'taw': 1, 'K_factors': 30}
+2025-01-11 00:07:40,107 - INFO - Best Train RMSE: 0.6384, Best Valid RMSE: 0.7790
+2025-01-11 00:07:40,107 - INFO - Training with lambda_reg=0.1, gamma=0.1, taw=100, K_factors=30
+2025-01-11 00:07:50,136 - INFO - Epoch 1, Valid RMSE: 0.8743
+2025-01-11 00:08:00,095 - INFO - Epoch 2, Valid RMSE: 0.8547
+2025-01-11 00:08:11,491 - INFO - Epoch 3, Valid RMSE: 0.8548
+2025-01-11 00:08:25,950 - INFO - Epoch 4, Valid RMSE: 0.8553
+2025-01-11 00:08:42,723 - INFO - Epoch 5, Valid RMSE: 0.8556
+2025-01-11 00:08:52,854 - INFO - Epoch 6, Valid RMSE: 0.8558
+2025-01-11 00:09:04,627 - INFO - Epoch 7, Valid RMSE: 0.8559
+2025-01-11 00:09:14,645 - INFO - Epoch 8, Valid RMSE: 0.8560
+2025-01-11 00:09:26,747 - INFO - Epoch 9, Valid RMSE: 0.8560
+2025-01-11 00:09:38,320 - INFO - Epoch 10, Valid RMSE: 0.8560
+2025-01-11 00:09:38,320 - INFO - Best Params: {'lambda_reg': 0.1, 'gamma': 0.1, 'taw': 1, 'K_factors': 30}
+2025-01-11 00:09:38,320 - INFO - Best Train RMSE: 0.6384, Best Valid RMSE: 0.7790
+2025-01-11 00:09:38,320 - INFO - Training with lambda_reg=0.1, gamma=0.5, taw=1, K_factors=30
+2025-01-11 00:09:48,486 - INFO - Epoch 1, Valid RMSE: 0.8871
+2025-01-11 00:10:01,011 - INFO - Epoch 2, Valid RMSE: 0.8159
+2025-01-11 00:10:16,104 - INFO - Epoch 3, Valid RMSE: 0.7971
+2025-01-11 00:10:26,413 - INFO - Epoch 4, Valid RMSE: 0.7916
+2025-01-11 00:10:37,199 - INFO - Epoch 5, Valid RMSE: 0.7895
+2025-01-11 00:10:47,143 - INFO - Epoch 6, Valid RMSE: 0.7886
+2025-01-11 00:10:57,124 - INFO - Epoch 7, Valid RMSE: 0.7881
+2025-01-11 00:11:07,111 - INFO - Epoch 8, Valid RMSE: 0.7877
+2025-01-11 00:11:17,110 - INFO - Epoch 9, Valid RMSE: 0.7874
+2025-01-11 00:11:27,293 - INFO - Epoch 10, Valid RMSE: 0.7870
+2025-01-11 00:11:27,294 - INFO - Best Params: {'lambda_reg': 0.1, 'gamma': 0.1, 'taw': 1, 'K_factors': 30}
+2025-01-11 00:11:27,294 - INFO - Best Train RMSE: 0.6384, Best Valid RMSE: 0.7790
+2025-01-11 00:11:27,294 - INFO - Training with lambda_reg=0.1, gamma=0.5, taw=10, K_factors=30
+2025-01-11 00:11:43,309 - INFO - Epoch 1, Valid RMSE: 0.8748
+2025-01-11 00:11:53,983 - INFO - Epoch 2, Valid RMSE: 0.8180
+2025-01-11 00:12:04,618 - INFO - Epoch 3, Valid RMSE: 0.8004
+2025-01-11 00:12:14,792 - INFO - Epoch 4, Valid RMSE: 0.7964
+2025-01-11 00:12:26,407 - INFO - Epoch 5, Valid RMSE: 0.7947
+2025-01-11 00:12:38,329 - INFO - Epoch 6, Valid RMSE: 0.7937
+2025-01-11 00:12:48,192 - INFO - Epoch 7, Valid RMSE: 0.7930
+2025-01-11 00:12:58,044 - INFO - Epoch 8, Valid RMSE: 0.7925
+2025-01-11 00:13:07,915 - INFO - Epoch 9, Valid RMSE: 0.7920
+2025-01-11 00:13:17,795 - INFO - Epoch 10, Valid RMSE: 0.7916
+2025-01-11 00:13:17,795 - INFO - Best Params: {'lambda_reg': 0.1, 'gamma': 0.1, 'taw': 1, 'K_factors': 30}
+2025-01-11 00:13:17,795 - INFO - Best Train RMSE: 0.6384, Best Valid RMSE: 0.7790
+2025-01-11 00:13:17,795 - INFO - Training with lambda_reg=0.1, gamma=0.5, taw=100, K_factors=30
+2025-01-11 00:13:29,106 - INFO - Epoch 1, Valid RMSE: 0.8788
+2025-01-11 00:13:39,722 - INFO - Epoch 2, Valid RMSE: 0.8659
+2025-01-11 00:13:49,716 - INFO - Epoch 3, Valid RMSE: 0.8667
+2025-01-11 00:14:00,397 - INFO - Epoch 4, Valid RMSE: 0.8667
+2025-01-11 00:14:12,944 - INFO - Epoch 5, Valid RMSE: 0.8664
+2025-01-11 00:14:23,971 - INFO - Epoch 6, Valid RMSE: 0.8660
+2025-01-11 00:14:34,472 - INFO - Epoch 7, Valid RMSE: 0.8656
+2025-01-11 00:14:45,062 - INFO - Epoch 8, Valid RMSE: 0.8652
+2025-01-11 00:14:56,143 - INFO - Epoch 9, Valid RMSE: 0.8648
+2025-01-11 00:15:08,057 - INFO - Epoch 10, Valid RMSE: 0.8645
+2025-01-11 00:15:08,057 - INFO - Best Params: {'lambda_reg': 0.1, 'gamma': 0.1, 'taw': 1, 'K_factors': 30}
+2025-01-11 00:15:08,057 - INFO - Best Train RMSE: 0.6384, Best Valid RMSE: 0.7790
+2025-01-11 00:15:08,057 - INFO - Training with lambda_reg=0.5, gamma=0.01, taw=1, K_factors=30
+2025-01-11 00:15:19,184 - INFO - Epoch 1, Valid RMSE: 0.9105
+2025-01-11 00:15:34,034 - INFO - Epoch 2, Valid RMSE: 0.8403
+2025-01-11 00:15:44,768 - INFO - Epoch 3, Valid RMSE: 0.8173
+2025-01-11 00:15:54,767 - INFO - Epoch 4, Valid RMSE: 0.8092
+2025-01-11 00:16:06,119 - INFO - Epoch 5, Valid RMSE: 0.8056
+2025-01-11 00:16:16,032 - INFO - Epoch 6, Valid RMSE: 0.8036
+2025-01-11 00:16:29,377 - INFO - Epoch 7, Valid RMSE: 0.8026
+2025-01-11 00:16:42,820 - INFO - Epoch 8, Valid RMSE: 0.8020
+2025-01-11 00:16:55,988 - INFO - Epoch 9, Valid RMSE: 0.8018
+2025-01-11 00:17:08,116 - INFO - Epoch 10, Valid RMSE: 0.8018
+2025-01-11 00:17:08,116 - INFO - Best Params: {'lambda_reg': 0.1, 'gamma': 0.1, 'taw': 1, 'K_factors': 30}
+2025-01-11 00:17:08,117 - INFO - Best Train RMSE: 0.6384, Best Valid RMSE: 0.7790
+2025-01-11 00:17:08,117 - INFO - Training with lambda_reg=0.5, gamma=0.01, taw=10, K_factors=30
+2025-01-11 00:17:21,317 - INFO - Epoch 1, Valid RMSE: 0.8767
+2025-01-11 00:17:35,029 - INFO - Epoch 2, Valid RMSE: 0.8050
+2025-01-11 00:17:45,926 - INFO - Epoch 3, Valid RMSE: 0.7880
+2025-01-11 00:17:57,428 - INFO - Epoch 4, Valid RMSE: 0.7816
+2025-01-11 00:18:07,421 - INFO - Epoch 5, Valid RMSE: 0.7782
+2025-01-11 00:18:17,349 - INFO - Epoch 6, Valid RMSE: 0.7761
+2025-01-11 00:18:29,105 - INFO - Epoch 7, Valid RMSE: 0.7747
+2025-01-11 00:18:39,025 - INFO - Epoch 8, Valid RMSE: 0.7736
+2025-01-11 00:18:50,636 - INFO - Epoch 9, Valid RMSE: 0.7727
+2025-01-11 00:19:06,223 - INFO - Epoch 10, Valid RMSE: 0.7721
+2025-01-11 00:19:06,223 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.01, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:19:06,223 - INFO - Best Train RMSE: 0.6549, Best Valid RMSE: 0.7721
+2025-01-11 00:19:06,223 - INFO - Training with lambda_reg=0.5, gamma=0.01, taw=100, K_factors=30
+2025-01-11 00:19:22,824 - INFO - Epoch 1, Valid RMSE: 0.8722
+2025-01-11 00:19:33,054 - INFO - Epoch 2, Valid RMSE: 0.8381
+2025-01-11 00:19:43,337 - INFO - Epoch 3, Valid RMSE: 0.8240
+2025-01-11 00:19:56,165 - INFO - Epoch 4, Valid RMSE: 0.8200
+2025-01-11 00:20:06,795 - INFO - Epoch 5, Valid RMSE: 0.8190
+2025-01-11 00:20:19,021 - INFO - Epoch 6, Valid RMSE: 0.8188
+2025-01-11 00:20:34,960 - INFO - Epoch 7, Valid RMSE: 0.8188
+2025-01-11 00:20:47,576 - INFO - Epoch 8, Valid RMSE: 0.8189
+2025-01-11 00:21:01,362 - INFO - Epoch 9, Valid RMSE: 0.8190
+2025-01-11 00:21:12,067 - INFO - Epoch 10, Valid RMSE: 0.8192
+2025-01-11 00:21:12,068 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.01, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:21:12,068 - INFO - Best Train RMSE: 0.6549, Best Valid RMSE: 0.7721
+2025-01-11 00:21:12,068 - INFO - Training with lambda_reg=0.5, gamma=0.1, taw=1, K_factors=30
+2025-01-11 00:21:23,856 - INFO - Epoch 1, Valid RMSE: 0.9079
+2025-01-11 00:21:41,304 - INFO - Epoch 2, Valid RMSE: 0.8405
+2025-01-11 00:21:55,710 - INFO - Epoch 3, Valid RMSE: 0.8184
+2025-01-11 00:22:09,152 - INFO - Epoch 4, Valid RMSE: 0.8098
+2025-01-11 00:22:19,765 - INFO - Epoch 5, Valid RMSE: 0.8056
+2025-01-11 00:22:33,859 - INFO - Epoch 6, Valid RMSE: 0.8034
+2025-01-11 00:22:47,113 - INFO - Epoch 7, Valid RMSE: 0.8022
+2025-01-11 00:23:00,022 - INFO - Epoch 8, Valid RMSE: 0.8016
+2025-01-11 00:23:10,374 - INFO - Epoch 9, Valid RMSE: 0.8013
+2025-01-11 00:23:20,604 - INFO - Epoch 10, Valid RMSE: 0.8014
+2025-01-11 00:23:20,604 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.01, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:23:20,604 - INFO - Best Train RMSE: 0.6549, Best Valid RMSE: 0.7721
+2025-01-11 00:23:20,604 - INFO - Training with lambda_reg=0.5, gamma=0.1, taw=10, K_factors=30
+2025-01-11 00:23:32,324 - INFO - Epoch 1, Valid RMSE: 0.8731
+2025-01-11 00:23:47,494 - INFO - Epoch 2, Valid RMSE: 0.8060
+2025-01-11 00:23:59,599 - INFO - Epoch 3, Valid RMSE: 0.7881
+2025-01-11 00:24:10,228 - INFO - Epoch 4, Valid RMSE: 0.7809
+2025-01-11 00:24:21,864 - INFO - Epoch 5, Valid RMSE: 0.7772
+2025-01-11 00:24:32,562 - INFO - Epoch 6, Valid RMSE: 0.7750
+2025-01-11 00:24:42,701 - INFO - Epoch 7, Valid RMSE: 0.7736
+2025-01-11 00:24:54,178 - INFO - Epoch 8, Valid RMSE: 0.7725
+2025-01-11 00:25:05,677 - INFO - Epoch 9, Valid RMSE: 0.7718
+2025-01-11 00:25:16,377 - INFO - Epoch 10, Valid RMSE: 0.7712
+2025-01-11 00:25:16,377 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.1, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:25:16,377 - INFO - Best Train RMSE: 0.6545, Best Valid RMSE: 0.7712
+2025-01-11 00:25:16,377 - INFO - Training with lambda_reg=0.5, gamma=0.1, taw=100, K_factors=30
+2025-01-11 00:25:26,684 - INFO - Epoch 1, Valid RMSE: 0.8732
+2025-01-11 00:25:36,734 - INFO - Epoch 2, Valid RMSE: 0.8349
+2025-01-11 00:25:48,771 - INFO - Epoch 3, Valid RMSE: 0.8229
+2025-01-11 00:26:00,136 - INFO - Epoch 4, Valid RMSE: 0.8197
+2025-01-11 00:26:11,787 - INFO - Epoch 5, Valid RMSE: 0.8188
+2025-01-11 00:26:25,154 - INFO - Epoch 6, Valid RMSE: 0.8185
+2025-01-11 00:26:37,803 - INFO - Epoch 7, Valid RMSE: 0.8186
+2025-01-11 00:26:47,906 - INFO - Epoch 8, Valid RMSE: 0.8187
+2025-01-11 00:26:57,750 - INFO - Epoch 9, Valid RMSE: 0.8188
+2025-01-11 00:27:07,633 - INFO - Epoch 10, Valid RMSE: 0.8190
+2025-01-11 00:27:07,633 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.1, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:27:07,633 - INFO - Best Train RMSE: 0.6545, Best Valid RMSE: 0.7712
+2025-01-11 00:27:07,633 - INFO - Training with lambda_reg=0.5, gamma=0.5, taw=1, K_factors=30
+2025-01-11 00:27:17,621 - INFO - Epoch 1, Valid RMSE: 0.9067
+2025-01-11 00:27:29,812 - INFO - Epoch 2, Valid RMSE: 0.8406
+2025-01-11 00:27:39,663 - INFO - Epoch 3, Valid RMSE: 0.8174
+2025-01-11 00:27:49,868 - INFO - Epoch 4, Valid RMSE: 0.8084
+2025-01-11 00:28:03,624 - INFO - Epoch 5, Valid RMSE: 0.8045
+2025-01-11 00:28:14,554 - INFO - Epoch 6, Valid RMSE: 0.8028
+2025-01-11 00:28:24,638 - INFO - Epoch 7, Valid RMSE: 0.8021
+2025-01-11 00:28:39,398 - INFO - Epoch 8, Valid RMSE: 0.8019
+2025-01-11 00:28:49,914 - INFO - Epoch 9, Valid RMSE: 0.8020
+2025-01-11 00:29:00,589 - INFO - Epoch 10, Valid RMSE: 0.8024
+2025-01-11 00:29:00,589 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.1, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:29:00,589 - INFO - Best Train RMSE: 0.6545, Best Valid RMSE: 0.7712
+2025-01-11 00:29:00,589 - INFO - Training with lambda_reg=0.5, gamma=0.5, taw=10, K_factors=30
+2025-01-11 00:29:14,163 - INFO - Epoch 1, Valid RMSE: 0.8743
+2025-01-11 00:29:24,225 - INFO - Epoch 2, Valid RMSE: 0.8046
+2025-01-11 00:29:34,535 - INFO - Epoch 3, Valid RMSE: 0.7865
+2025-01-11 00:29:45,719 - INFO - Epoch 4, Valid RMSE: 0.7797
+2025-01-11 00:29:56,054 - INFO - Epoch 5, Valid RMSE: 0.7764
+2025-01-11 00:30:07,750 - INFO - Epoch 6, Valid RMSE: 0.7744
+2025-01-11 00:30:17,796 - INFO - Epoch 7, Valid RMSE: 0.7730
+2025-01-11 00:30:28,149 - INFO - Epoch 8, Valid RMSE: 0.7721
+2025-01-11 00:30:40,311 - INFO - Epoch 9, Valid RMSE: 0.7714
+2025-01-11 00:30:50,453 - INFO - Epoch 10, Valid RMSE: 0.7708
+2025-01-11 00:30:50,453 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:30:50,453 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:30:50,453 - INFO - Training with lambda_reg=0.5, gamma=0.5, taw=100, K_factors=30
+2025-01-11 00:31:00,535 - INFO - Epoch 1, Valid RMSE: 0.8721
+2025-01-11 00:31:12,375 - INFO - Epoch 2, Valid RMSE: 0.8378
+2025-01-11 00:31:25,100 - INFO - Epoch 3, Valid RMSE: 0.8245
+2025-01-11 00:31:35,113 - INFO - Epoch 4, Valid RMSE: 0.8205
+2025-01-11 00:31:45,069 - INFO - Epoch 5, Valid RMSE: 0.8193
+2025-01-11 00:31:55,368 - INFO - Epoch 6, Valid RMSE: 0.8189
+2025-01-11 00:32:06,193 - INFO - Epoch 7, Valid RMSE: 0.8189
+2025-01-11 00:32:16,254 - INFO - Epoch 8, Valid RMSE: 0.8189
+2025-01-11 00:32:26,569 - INFO - Epoch 9, Valid RMSE: 0.8190
+2025-01-11 00:32:36,769 - INFO - Epoch 10, Valid RMSE: 0.8191
+2025-01-11 00:32:36,769 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:32:36,769 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:32:36,769 - INFO - Training with lambda_reg=1.0, gamma=0.01, taw=1, K_factors=30
+2025-01-11 00:32:47,568 - INFO - Epoch 1, Valid RMSE: 0.9294
+2025-01-11 00:32:59,152 - INFO - Epoch 2, Valid RMSE: 0.8582
+2025-01-11 00:33:09,684 - INFO - Epoch 3, Valid RMSE: 0.8307
+2025-01-11 00:33:22,148 - INFO - Epoch 4, Valid RMSE: 0.8204
+2025-01-11 00:33:32,405 - INFO - Epoch 5, Valid RMSE: 0.8158
+2025-01-11 00:33:45,647 - INFO - Epoch 6, Valid RMSE: 0.8135
+2025-01-11 00:33:55,822 - INFO - Epoch 7, Valid RMSE: 0.8124
+2025-01-11 00:34:06,313 - INFO - Epoch 8, Valid RMSE: 0.8118
+2025-01-11 00:34:18,056 - INFO - Epoch 9, Valid RMSE: 0.8117
+2025-01-11 00:34:29,797 - INFO - Epoch 10, Valid RMSE: 0.8118
+2025-01-11 00:34:29,797 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:34:29,797 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:34:29,797 - INFO - Training with lambda_reg=1.0, gamma=0.01, taw=10, K_factors=30
+2025-01-11 00:34:41,126 - INFO - Epoch 1, Valid RMSE: 0.8863
+2025-01-11 00:34:54,101 - INFO - Epoch 2, Valid RMSE: 0.8141
+2025-01-11 00:35:04,214 - INFO - Epoch 3, Valid RMSE: 0.7963
+2025-01-11 00:35:14,951 - INFO - Epoch 4, Valid RMSE: 0.7894
+2025-01-11 00:35:25,495 - INFO - Epoch 5, Valid RMSE: 0.7859
+2025-01-11 00:35:37,527 - INFO - Epoch 6, Valid RMSE: 0.7838
+2025-01-11 00:35:47,780 - INFO - Epoch 7, Valid RMSE: 0.7824
+2025-01-11 00:36:04,254 - INFO - Epoch 8, Valid RMSE: 0.7816
+2025-01-11 00:36:18,767 - INFO - Epoch 9, Valid RMSE: 0.7809
+2025-01-11 00:36:31,685 - INFO - Epoch 10, Valid RMSE: 0.7805
+2025-01-11 00:36:31,685 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:36:31,685 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:36:31,685 - INFO - Training with lambda_reg=1.0, gamma=0.01, taw=100, K_factors=30
+2025-01-11 00:36:42,054 - INFO - Epoch 1, Valid RMSE: 0.8709
+2025-01-11 00:36:52,264 - INFO - Epoch 2, Valid RMSE: 0.8091
+2025-01-11 00:37:05,253 - INFO - Epoch 3, Valid RMSE: 0.7921
+2025-01-11 00:37:15,613 - INFO - Epoch 4, Valid RMSE: 0.7878
+2025-01-11 00:37:27,387 - INFO - Epoch 5, Valid RMSE: 0.7861
+2025-01-11 00:37:37,617 - INFO - Epoch 6, Valid RMSE: 0.7854
+2025-01-11 00:37:48,244 - INFO - Epoch 7, Valid RMSE: 0.7850
+2025-01-11 00:37:58,868 - INFO - Epoch 8, Valid RMSE: 0.7847
+2025-01-11 00:38:12,642 - INFO - Epoch 9, Valid RMSE: 0.7846
+2025-01-11 00:38:23,050 - INFO - Epoch 10, Valid RMSE: 0.7845
+2025-01-11 00:38:23,050 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:38:23,050 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:38:23,050 - INFO - Training with lambda_reg=1.0, gamma=0.1, taw=1, K_factors=30
+2025-01-11 00:38:34,658 - INFO - Epoch 1, Valid RMSE: 0.9217
+2025-01-11 00:38:45,063 - INFO - Epoch 2, Valid RMSE: 0.8521
+2025-01-11 00:38:58,331 - INFO - Epoch 3, Valid RMSE: 0.8283
+2025-01-11 00:39:13,703 - INFO - Epoch 4, Valid RMSE: 0.8193
+2025-01-11 00:39:24,060 - INFO - Epoch 5, Valid RMSE: 0.8150
+2025-01-11 00:39:34,321 - INFO - Epoch 6, Valid RMSE: 0.8129
+2025-01-11 00:39:49,540 - INFO - Epoch 7, Valid RMSE: 0.8118
+2025-01-11 00:39:59,813 - INFO - Epoch 8, Valid RMSE: 0.8113
+2025-01-11 00:40:09,780 - INFO - Epoch 9, Valid RMSE: 0.8112
+2025-01-11 00:40:22,811 - INFO - Epoch 10, Valid RMSE: 0.8114
+2025-01-11 00:40:22,811 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:40:22,811 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:40:22,811 - INFO - Training with lambda_reg=1.0, gamma=0.1, taw=10, K_factors=30
+2025-01-11 00:40:33,278 - INFO - Epoch 1, Valid RMSE: 0.8812
+2025-01-11 00:40:47,295 - INFO - Epoch 2, Valid RMSE: 0.8126
+2025-01-11 00:40:57,549 - INFO - Epoch 3, Valid RMSE: 0.7943
+2025-01-11 00:41:09,896 - INFO - Epoch 4, Valid RMSE: 0.7877
+2025-01-11 00:41:20,127 - INFO - Epoch 5, Valid RMSE: 0.7845
+2025-01-11 00:41:30,264 - INFO - Epoch 6, Valid RMSE: 0.7827
+2025-01-11 00:41:43,387 - INFO - Epoch 7, Valid RMSE: 0.7815
+2025-01-11 00:41:56,111 - INFO - Epoch 8, Valid RMSE: 0.7807
+2025-01-11 00:42:10,232 - INFO - Epoch 9, Valid RMSE: 0.7801
+2025-01-11 00:42:21,344 - INFO - Epoch 10, Valid RMSE: 0.7797
+2025-01-11 00:42:21,345 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:42:21,345 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:42:21,345 - INFO - Training with lambda_reg=1.0, gamma=0.1, taw=100, K_factors=30
+2025-01-11 00:42:32,283 - INFO - Epoch 1, Valid RMSE: 0.8700
+2025-01-11 00:42:43,733 - INFO - Epoch 2, Valid RMSE: 0.8102
+2025-01-11 00:42:54,469 - INFO - Epoch 3, Valid RMSE: 0.7928
+2025-01-11 00:43:06,601 - INFO - Epoch 4, Valid RMSE: 0.7882
+2025-01-11 00:43:18,181 - INFO - Epoch 5, Valid RMSE: 0.7864
+2025-01-11 00:43:29,861 - INFO - Epoch 6, Valid RMSE: 0.7855
+2025-01-11 00:43:44,362 - INFO - Epoch 7, Valid RMSE: 0.7850
+2025-01-11 00:43:56,770 - INFO - Epoch 8, Valid RMSE: 0.7848
+2025-01-11 00:44:10,427 - INFO - Epoch 9, Valid RMSE: 0.7846
+2025-01-11 00:44:25,871 - INFO - Epoch 10, Valid RMSE: 0.7845
+2025-01-11 00:44:25,871 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:44:25,871 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:44:25,871 - INFO - Training with lambda_reg=1.0, gamma=0.5, taw=1, K_factors=30
+2025-01-11 00:44:39,233 - INFO - Epoch 1, Valid RMSE: 0.9221
+2025-01-11 00:44:49,499 - INFO - Epoch 2, Valid RMSE: 0.8534
+2025-01-11 00:45:01,030 - INFO - Epoch 3, Valid RMSE: 0.8287
+2025-01-11 00:45:11,460 - INFO - Epoch 4, Valid RMSE: 0.8191
+2025-01-11 00:45:22,010 - INFO - Epoch 5, Valid RMSE: 0.8145
+2025-01-11 00:45:34,110 - INFO - Epoch 6, Valid RMSE: 0.8122
+2025-01-11 00:45:44,163 - INFO - Epoch 7, Valid RMSE: 0.8111
+2025-01-11 00:45:55,156 - INFO - Epoch 8, Valid RMSE: 0.8107
+2025-01-11 00:46:07,655 - INFO - Epoch 9, Valid RMSE: 0.8106
+2025-01-11 00:46:18,732 - INFO - Epoch 10, Valid RMSE: 0.8108
+2025-01-11 00:46:18,732 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:46:18,732 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:46:18,732 - INFO - Training with lambda_reg=1.0, gamma=0.5, taw=10, K_factors=30
+2025-01-11 00:46:29,191 - INFO - Epoch 1, Valid RMSE: 0.8846
+2025-01-11 00:46:39,187 - INFO - Epoch 2, Valid RMSE: 0.8166
+2025-01-11 00:46:49,579 - INFO - Epoch 3, Valid RMSE: 0.7966
+2025-01-11 00:46:59,832 - INFO - Epoch 4, Valid RMSE: 0.7886
+2025-01-11 00:47:13,805 - INFO - Epoch 5, Valid RMSE: 0.7845
+2025-01-11 00:47:23,897 - INFO - Epoch 6, Valid RMSE: 0.7822
+2025-01-11 00:47:34,085 - INFO - Epoch 7, Valid RMSE: 0.7807
+2025-01-11 00:47:44,346 - INFO - Epoch 8, Valid RMSE: 0.7798
+2025-01-11 00:47:55,111 - INFO - Epoch 9, Valid RMSE: 0.7792
+2025-01-11 00:48:05,358 - INFO - Epoch 10, Valid RMSE: 0.7788
+2025-01-11 00:48:05,358 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:48:05,358 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:48:05,358 - INFO - Training with lambda_reg=1.0, gamma=0.5, taw=100, K_factors=30
+2025-01-11 00:48:15,972 - INFO - Epoch 1, Valid RMSE: 0.8700
+2025-01-11 00:48:26,659 - INFO - Epoch 2, Valid RMSE: 0.8086
+2025-01-11 00:48:39,713 - INFO - Epoch 3, Valid RMSE: 0.7920
+2025-01-11 00:48:49,802 - INFO - Epoch 4, Valid RMSE: 0.7876
+2025-01-11 00:49:00,060 - INFO - Epoch 5, Valid RMSE: 0.7859
+2025-01-11 00:49:10,998 - INFO - Epoch 6, Valid RMSE: 0.7850
+2025-01-11 00:49:21,270 - INFO - Epoch 7, Valid RMSE: 0.7846
+2025-01-11 00:49:34,505 - INFO - Epoch 8, Valid RMSE: 0.7843
+2025-01-11 00:49:44,691 - INFO - Epoch 9, Valid RMSE: 0.7841
+2025-01-11 00:49:57,673 - INFO - Epoch 10, Valid RMSE: 0.7840
+2025-01-11 00:49:57,673 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:49:57,673 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:49:57,673 - INFO - Training with lambda_reg=5.0, gamma=0.01, taw=1, K_factors=30
+2025-01-11 00:50:09,780 - INFO - Epoch 1, Valid RMSE: 0.9667
+2025-01-11 00:50:19,898 - INFO - Epoch 2, Valid RMSE: 0.8972
+2025-01-11 00:50:30,187 - INFO - Epoch 3, Valid RMSE: 0.8685
+2025-01-11 00:50:40,695 - INFO - Epoch 4, Valid RMSE: 0.8554
+2025-01-11 00:50:53,240 - INFO - Epoch 5, Valid RMSE: 0.8483
+2025-01-11 00:51:03,463 - INFO - Epoch 6, Valid RMSE: 0.8443
+2025-01-11 00:51:14,499 - INFO - Epoch 7, Valid RMSE: 0.8420
+2025-01-11 00:51:31,584 - INFO - Epoch 8, Valid RMSE: 0.8407
+2025-01-11 00:51:46,599 - INFO - Epoch 9, Valid RMSE: 0.8401
+2025-01-11 00:51:56,855 - INFO - Epoch 10, Valid RMSE: 0.8399
+2025-01-11 00:51:56,855 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:51:56,855 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:51:56,855 - INFO - Training with lambda_reg=5.0, gamma=0.01, taw=10, K_factors=30
+2025-01-11 00:52:08,419 - INFO - Epoch 1, Valid RMSE: 0.9107
+2025-01-11 00:52:19,077 - INFO - Epoch 2, Valid RMSE: 0.8427
+2025-01-11 00:52:30,272 - INFO - Epoch 3, Valid RMSE: 0.8196
+2025-01-11 00:52:41,368 - INFO - Epoch 4, Valid RMSE: 0.8111
+2025-01-11 00:52:54,359 - INFO - Epoch 5, Valid RMSE: 0.8071
+2025-01-11 00:53:05,170 - INFO - Epoch 6, Valid RMSE: 0.8049
+2025-01-11 00:53:15,376 - INFO - Epoch 7, Valid RMSE: 0.8037
+2025-01-11 00:53:25,979 - INFO - Epoch 8, Valid RMSE: 0.8031
+2025-01-11 00:53:36,113 - INFO - Epoch 9, Valid RMSE: 0.8028
+2025-01-11 00:53:48,707 - INFO - Epoch 10, Valid RMSE: 0.8027
+2025-01-11 00:53:48,707 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:53:48,707 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:53:48,707 - INFO - Training with lambda_reg=5.0, gamma=0.01, taw=100, K_factors=30
+2025-01-11 00:53:59,089 - INFO - Epoch 1, Valid RMSE: 0.8764
+2025-01-11 00:54:09,649 - INFO - Epoch 2, Valid RMSE: 0.8047
+2025-01-11 00:54:20,547 - INFO - Epoch 3, Valid RMSE: 0.7879
+2025-01-11 00:54:30,976 - INFO - Epoch 4, Valid RMSE: 0.7814
+2025-01-11 00:54:42,517 - INFO - Epoch 5, Valid RMSE: 0.7779
+2025-01-11 00:54:52,809 - INFO - Epoch 6, Valid RMSE: 0.7757
+2025-01-11 00:55:03,392 - INFO - Epoch 7, Valid RMSE: 0.7742
+2025-01-11 00:55:13,423 - INFO - Epoch 8, Valid RMSE: 0.7731
+2025-01-11 00:55:25,446 - INFO - Epoch 9, Valid RMSE: 0.7723
+2025-01-11 00:55:36,583 - INFO - Epoch 10, Valid RMSE: 0.7717
+2025-01-11 00:55:36,583 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:55:36,583 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:55:36,583 - INFO - Training with lambda_reg=5.0, gamma=0.1, taw=1, K_factors=30
+2025-01-11 00:55:46,752 - INFO - Epoch 1, Valid RMSE: 0.9679
+2025-01-11 00:55:56,922 - INFO - Epoch 2, Valid RMSE: 0.8981
+2025-01-11 00:56:08,671 - INFO - Epoch 3, Valid RMSE: 0.8694
+2025-01-11 00:56:19,833 - INFO - Epoch 4, Valid RMSE: 0.8558
+2025-01-11 00:56:30,257 - INFO - Epoch 5, Valid RMSE: 0.8487
+2025-01-11 00:56:40,647 - INFO - Epoch 6, Valid RMSE: 0.8448
+2025-01-11 00:56:53,048 - INFO - Epoch 7, Valid RMSE: 0.8425
+2025-01-11 00:57:07,395 - INFO - Epoch 8, Valid RMSE: 0.8413
+2025-01-11 00:57:17,493 - INFO - Epoch 9, Valid RMSE: 0.8407
+2025-01-11 00:57:27,922 - INFO - Epoch 10, Valid RMSE: 0.8406
+2025-01-11 00:57:27,922 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:57:27,923 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:57:27,923 - INFO - Training with lambda_reg=5.0, gamma=0.1, taw=10, K_factors=30
+2025-01-11 00:57:40,092 - INFO - Epoch 1, Valid RMSE: 0.9107
+2025-01-11 00:57:50,410 - INFO - Epoch 2, Valid RMSE: 0.8446
+2025-01-11 00:58:00,717 - INFO - Epoch 3, Valid RMSE: 0.8203
+2025-01-11 00:58:11,967 - INFO - Epoch 4, Valid RMSE: 0.8107
+2025-01-11 00:58:24,747 - INFO - Epoch 5, Valid RMSE: 0.8063
+2025-01-11 00:58:38,048 - INFO - Epoch 6, Valid RMSE: 0.8040
+2025-01-11 00:58:50,427 - INFO - Epoch 7, Valid RMSE: 0.8029
+2025-01-11 00:59:01,795 - INFO - Epoch 8, Valid RMSE: 0.8023
+2025-01-11 00:59:11,840 - INFO - Epoch 9, Valid RMSE: 0.8021
+2025-01-11 00:59:22,308 - INFO - Epoch 10, Valid RMSE: 0.8022
+2025-01-11 00:59:22,308 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 00:59:22,308 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 00:59:22,308 - INFO - Training with lambda_reg=5.0, gamma=0.1, taw=100, K_factors=30
+2025-01-11 00:59:33,861 - INFO - Epoch 1, Valid RMSE: 0.8783
+2025-01-11 00:59:43,810 - INFO - Epoch 2, Valid RMSE: 0.8072
+2025-01-11 00:59:56,804 - INFO - Epoch 3, Valid RMSE: 0.7889
+2025-01-11 01:00:11,690 - INFO - Epoch 4, Valid RMSE: 0.7818
+2025-01-11 01:00:24,598 - INFO - Epoch 5, Valid RMSE: 0.7781
+2025-01-11 01:00:34,840 - INFO - Epoch 6, Valid RMSE: 0.7759
+2025-01-11 01:00:47,701 - INFO - Epoch 7, Valid RMSE: 0.7744
+2025-01-11 01:00:57,762 - INFO - Epoch 8, Valid RMSE: 0.7734
+2025-01-11 01:01:10,887 - INFO - Epoch 9, Valid RMSE: 0.7726
+2025-01-11 01:01:21,147 - INFO - Epoch 10, Valid RMSE: 0.7720
+2025-01-11 01:01:21,147 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 01:01:21,147 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 01:01:21,147 - INFO - Training with lambda_reg=5.0, gamma=0.5, taw=1, K_factors=30
+2025-01-11 01:01:41,148 - INFO - Epoch 1, Valid RMSE: 0.9675
+2025-01-11 01:01:51,896 - INFO - Epoch 2, Valid RMSE: 0.9001
+2025-01-11 01:02:03,024 - INFO - Epoch 3, Valid RMSE: 0.8686
+2025-01-11 01:02:13,357 - INFO - Epoch 4, Valid RMSE: 0.8547
+2025-01-11 01:02:23,658 - INFO - Epoch 5, Valid RMSE: 0.8478
+2025-01-11 01:02:35,238 - INFO - Epoch 6, Valid RMSE: 0.8442
+2025-01-11 01:02:46,024 - INFO - Epoch 7, Valid RMSE: 0.8421
+2025-01-11 01:02:58,934 - INFO - Epoch 8, Valid RMSE: 0.8410
+2025-01-11 01:03:10,935 - INFO - Epoch 9, Valid RMSE: 0.8403
+2025-01-11 01:03:21,654 - INFO - Epoch 10, Valid RMSE: 0.8401
+2025-01-11 01:03:21,654 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 01:03:21,654 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 01:03:21,654 - INFO - Training with lambda_reg=5.0, gamma=0.5, taw=10, K_factors=30
+2025-01-11 01:03:34,737 - INFO - Epoch 1, Valid RMSE: 0.9112
+2025-01-11 01:03:46,704 - INFO - Epoch 2, Valid RMSE: 0.8432
+2025-01-11 01:03:57,730 - INFO - Epoch 3, Valid RMSE: 0.8201
+2025-01-11 01:04:08,332 - INFO - Epoch 4, Valid RMSE: 0.8109
+2025-01-11 01:04:18,705 - INFO - Epoch 5, Valid RMSE: 0.8065
+2025-01-11 01:04:32,758 - INFO - Epoch 6, Valid RMSE: 0.8043
+2025-01-11 01:04:45,143 - INFO - Epoch 7, Valid RMSE: 0.8032
+2025-01-11 01:04:58,678 - INFO - Epoch 8, Valid RMSE: 0.8026
+2025-01-11 01:05:11,680 - INFO - Epoch 9, Valid RMSE: 0.8023
+2025-01-11 01:05:25,364 - INFO - Epoch 10, Valid RMSE: 0.8023
+2025-01-11 01:05:25,364 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 01:05:25,364 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 01:05:25,364 - INFO - Training with lambda_reg=5.0, gamma=0.5, taw=100, K_factors=30
+2025-01-11 01:05:38,383 - INFO - Epoch 1, Valid RMSE: 0.8760
+2025-01-11 01:05:48,363 - INFO - Epoch 2, Valid RMSE: 0.8056
+2025-01-11 01:06:01,935 - INFO - Epoch 3, Valid RMSE: 0.7876
+2025-01-11 01:06:12,220 - INFO - Epoch 4, Valid RMSE: 0.7809
+2025-01-11 01:06:23,266 - INFO - Epoch 5, Valid RMSE: 0.7775
+2025-01-11 01:06:33,658 - INFO - Epoch 6, Valid RMSE: 0.7754
+2025-01-11 01:06:43,673 - INFO - Epoch 7, Valid RMSE: 0.7739
+2025-01-11 01:06:53,869 - INFO - Epoch 8, Valid RMSE: 0.7729
+2025-01-11 01:07:06,009 - INFO - Epoch 9, Valid RMSE: 0.7721
+2025-01-11 01:07:16,086 - INFO - Epoch 10, Valid RMSE: 0.7715
+2025-01-11 01:07:16,086 - INFO - Best Params: {'lambda_reg': 0.5, 'gamma': 0.5, 'taw': 10, 'K_factors': 30}
+2025-01-11 01:07:16,086 - INFO - Best Train RMSE: 0.6550, Best Valid RMSE: 0.7708
+2025-01-11 01:07:16,096 - INFO - Best Hyperparameters:
+2025-01-11 01:07:16,096 - INFO - lambda_reg: 0.5, gamma: 0.5, taw: 10, K_factors: 30
+2025-01-11 01:07:16,096 - INFO - Best Train RMSE: 0.6550
+2025-01-11 01:07:16,096 - INFO - Best Valid RMSE: 0.7708

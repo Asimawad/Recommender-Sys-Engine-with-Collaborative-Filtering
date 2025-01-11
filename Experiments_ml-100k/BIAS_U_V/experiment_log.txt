@@ -1,0 +1,350 @@
+2025-01-09 22:36:20,359 - INFO - Epoch 1/20 : Train RMSE = 0.6713 -- Valid RMSE = 1.1263 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,359 - INFO -  - User Updates Time: 2.28s
+2025-01-09 22:36:20,359 - INFO -  - Movie Updates Time: 0.70s
+2025-01-09 22:36:20,359 - INFO -  - Total Epoch Time: 3.17s
+
+2025-01-09 22:36:20,394 - INFO - Epoch 2/20 : Train RMSE = 0.6414 -- Valid RMSE = 1.0991 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,394 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,394 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,394 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,428 - INFO - Epoch 3/20 : Train RMSE = 0.6363 -- Valid RMSE = 1.0998 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,428 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,428 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,428 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,463 - INFO - Epoch 4/20 : Train RMSE = 0.6352 -- Valid RMSE = 1.1019 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,463 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,463 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,463 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,498 - INFO - Epoch 5/20 : Train RMSE = 0.6348 -- Valid RMSE = 1.1032 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,499 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,499 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,499 - INFO -  - Total Epoch Time: 0.04s
+
+2025-01-09 22:36:20,533 - INFO - Epoch 6/20 : Train RMSE = 0.6347 -- Valid RMSE = 1.1038 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,534 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,534 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,534 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,568 - INFO - Epoch 7/20 : Train RMSE = 0.6346 -- Valid RMSE = 1.1040 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,569 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,569 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,569 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,602 - INFO - Epoch 8/20 : Train RMSE = 0.6346 -- Valid RMSE = 1.1040 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,603 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,603 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,603 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,638 - INFO - Epoch 9/20 : Train RMSE = 0.6345 -- Valid RMSE = 1.1040 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,638 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,638 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,638 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,673 - INFO - Epoch 10/20 : Train RMSE = 0.6345 -- Valid RMSE = 1.1040 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,673 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,673 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,673 - INFO -  - Total Epoch Time: 0.04s
+
+2025-01-09 22:36:20,709 - INFO - Epoch 11/20 : Train RMSE = 0.6345 -- Valid RMSE = 1.1040 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,709 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,709 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,709 - INFO -  - Total Epoch Time: 0.04s
+
+2025-01-09 22:36:20,744 - INFO - Epoch 12/20 : Train RMSE = 0.6345 -- Valid RMSE = 1.1040 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,744 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,744 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,744 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,779 - INFO - Epoch 13/20 : Train RMSE = 0.6345 -- Valid RMSE = 1.1040 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,779 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,779 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,779 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,814 - INFO - Epoch 14/20 : Train RMSE = 0.6345 -- Valid RMSE = 1.1040 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,814 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,814 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,814 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,849 - INFO - Epoch 15/20 : Train RMSE = 0.6345 -- Valid RMSE = 1.1041 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,849 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,849 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,849 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,883 - INFO - Epoch 16/20 : Train RMSE = 0.6345 -- Valid RMSE = 1.1042 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,884 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,884 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,884 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,918 - INFO - Epoch 17/20 : Train RMSE = 0.6345 -- Valid RMSE = 1.1043 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,918 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,919 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,919 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,954 - INFO - Epoch 18/20 : Train RMSE = 0.6345 -- Valid RMSE = 1.1045 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,954 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,954 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,954 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 22:36:20,989 - INFO - Epoch 19/20 : Train RMSE = 0.6345 -- Valid RMSE = 1.1046 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:20,989 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:20,989 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:20,989 - INFO -  - Total Epoch Time: 0.04s
+
+2025-01-09 22:36:21,025 - INFO - Epoch 20/20 : Train RMSE = 0.6345 -- Valid RMSE = 1.1048 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 22:36:21,025 - INFO -  - User Updates Time: 0.01s
+2025-01-09 22:36:21,025 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 22:36:21,025 - INFO -  - Total Epoch Time: 0.04s
+
+2025-01-09 23:08:03,589 - INFO - Epoch 1/50 : Train RMSE = 0.6715 -- Valid RMSE = 1.1267 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,589 - INFO -  - User Updates Time: 2.94s
+2025-01-09 23:08:03,589 - INFO -  - Movie Updates Time: 0.70s
+2025-01-09 23:08:03,589 - INFO -  - Total Epoch Time: 3.82s
+
+2025-01-09 23:08:03,622 - INFO - Epoch 2/50 : Train RMSE = 0.6413 -- Valid RMSE = 1.0949 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,622 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:03,622 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:03,622 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:03,656 - INFO - Epoch 3/50 : Train RMSE = 0.6362 -- Valid RMSE = 1.0951 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,656 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:03,656 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:03,656 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:03,690 - INFO - Epoch 4/50 : Train RMSE = 0.6352 -- Valid RMSE = 1.0971 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,690 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:03,690 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:03,690 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:03,724 - INFO - Epoch 5/50 : Train RMSE = 0.6348 -- Valid RMSE = 1.0982 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,724 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:03,724 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:03,724 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:03,758 - INFO - Epoch 6/50 : Train RMSE = 0.6347 -- Valid RMSE = 1.0987 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,758 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:03,758 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:03,758 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:03,792 - INFO - Epoch 7/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.0987 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,792 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:03,792 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:03,792 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:03,826 - INFO - Epoch 8/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.0986 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,826 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:03,826 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:03,826 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:03,860 - INFO - Epoch 9/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0985 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,860 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:03,860 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:03,860 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:03,894 - INFO - Epoch 10/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0983 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,894 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:03,894 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:03,894 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:03,926 - INFO - Epoch 11/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0981 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,926 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:03,926 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:03,926 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:03,959 - INFO - Epoch 12/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0980 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,959 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:03,959 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:03,959 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:03,992 - INFO - Epoch 13/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0979 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:03,992 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:03,992 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:03,992 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,025 - INFO - Epoch 14/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0978 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,025 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,025 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:04,025 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,058 - INFO - Epoch 15/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0978 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,058 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,058 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:04,058 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,091 - INFO - Epoch 16/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0978 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,091 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,091 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:04,091 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,125 - INFO - Epoch 17/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0978 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,125 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,125 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,125 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,158 - INFO - Epoch 18/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0979 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,158 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,158 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:04,158 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,191 - INFO - Epoch 19/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0980 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,191 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,191 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:04,191 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,224 - INFO - Epoch 20/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0981 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,224 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,224 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:04,224 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,258 - INFO - Epoch 21/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0982 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,258 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,258 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,258 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,291 - INFO - Epoch 22/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0983 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,292 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,292 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:04,292 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,326 - INFO - Epoch 23/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0985 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,326 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,326 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,326 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,360 - INFO - Epoch 24/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0987 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,360 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,360 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,360 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,394 - INFO - Epoch 25/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0988 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,394 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,394 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,394 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,427 - INFO - Epoch 26/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0990 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,427 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,427 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:04,427 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,460 - INFO - Epoch 27/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0992 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,460 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,460 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:04,460 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,493 - INFO - Epoch 28/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0994 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,493 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,493 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:04,493 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,526 - INFO - Epoch 29/50 : Train RMSE = 0.6345 -- Valid RMSE = 1.0997 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,526 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,526 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:04,526 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,560 - INFO - Epoch 30/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.0999 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,560 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:04,560 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,560 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,594 - INFO - Epoch 31/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1001 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,594 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,594 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,594 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,628 - INFO - Epoch 32/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1003 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,628 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,628 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,628 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,662 - INFO - Epoch 33/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1005 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,662 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,662 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,662 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,696 - INFO - Epoch 34/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1008 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,696 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,696 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,696 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,730 - INFO - Epoch 35/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1010 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,730 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,730 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,731 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,765 - INFO - Epoch 36/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1012 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,765 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,765 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,765 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,799 - INFO - Epoch 37/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1014 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,799 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,799 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,799 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,833 - INFO - Epoch 38/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1017 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,834 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,834 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,834 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,868 - INFO - Epoch 39/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1019 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,868 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,868 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,868 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,902 - INFO - Epoch 40/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1021 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,902 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,902 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,902 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,937 - INFO - Epoch 41/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1023 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,937 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,937 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,937 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:04,971 - INFO - Epoch 42/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1025 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:04,971 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:04,971 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:04,971 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:05,005 - INFO - Epoch 43/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1027 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:05,005 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:05,005 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:05,005 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:05,039 - INFO - Epoch 44/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1029 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:05,040 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:05,040 - INFO -  - Movie Updates Time: 0.03s
+2025-01-09 23:08:05,040 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:05,073 - INFO - Epoch 45/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1031 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:05,073 - INFO -  - User Updates Time: 0.01s
+2025-01-09 23:08:05,073 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:05,073 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:05,106 - INFO - Epoch 46/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1033 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:05,106 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:05,106 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:05,106 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:05,139 - INFO - Epoch 47/50 : Train RMSE = 0.6346 -- Valid RMSE = 1.1035 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:05,139 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:05,139 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:05,139 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:05,173 - INFO - Epoch 48/50 : Train RMSE = 0.6347 -- Valid RMSE = 1.1037 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:05,173 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:05,173 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:05,173 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:05,206 - INFO - Epoch 49/50 : Train RMSE = 0.6347 -- Valid RMSE = 1.1038 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:05,206 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:05,206 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:05,206 - INFO -  - Total Epoch Time: 0.03s
+
+2025-01-09 23:08:05,239 - INFO - Epoch 50/50 : Train RMSE = 0.6347 -- Valid RMSE = 1.1040 | Train Loss = 0.0M -- Validation Loss = 0.1M
+2025-01-09 23:08:05,239 - INFO -  - User Updates Time: 0.00s
+2025-01-09 23:08:05,239 - INFO -  - Movie Updates Time: 0.02s
+2025-01-09 23:08:05,239 - INFO -  - Total Epoch Time: 0.03s
+
