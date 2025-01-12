@@ -3,18 +3,17 @@ import pandas as pd
 import pickle
 from src.Helper_Functions import load_model, Load_idx_maps,create_fake_user
 
-# Define constants
-MOVIE_FILE_PATH = 'Data/ml-32m/movies.csv'
+# Define constants 
 
 K_FACTORS = 32
-LAMBDA_REG = 0.5
-GAMMA = 0.5
-TAW = 10
-
-experiment_folder = "Experiments_ml-32m/B_U_V_F/"
-data_folder = 'Training_data/ml-32m'
-# K_factors = 30; lambda_reg = 1 ; gamma = 0.01 ; taw =  10
-
+LAMBDA_REG = 2
+GAMMA = 1
+TAW = 100
+dataset = "ml-32m"
+model = "B_U_V_F"
+MOVIE_FILE_PATH = f'Data/{dataset}/movies.csv'
+experiment_folder = f"Experiments_{dataset}/{model}/"
+data_folder = f'Training_data/{dataset}'
 
 # Function to load data
 def load_data():
@@ -62,21 +61,12 @@ def generate_recommendations(dummy_user_vector, movies_factors, item_bias, idx_t
     return pd.DataFrame(recommendations) , top_movie_indices
 
 # Main function
-def main():
+def main(query):
     # Load data
     movies, movies_factors, item_bias, movie_idx_map, idx_to_movie = load_data()
-
-    # Get movie details  : Uncomment any movie
-    # movie_name, movie_id, genre = get_movie_details(movies, "Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001)")
-    # movie_name, movie_id, genre = get_movie_details(movies, "Lord of the Rings, The (1978)")
-    # movie_name, movie_id, genre = get_movie_details(movies, "Avengers: Infinity War - Part II (2019)")
-    # movie_name, movie_id, genre = get_movie_details(movies, "Saw (2004)")# "Casino (1995)"
-    # movie_name, movie_id, genre = get_movie_details(movies, "Casino (1995)")
-    # movie_name, movie_id, genre = get_movie_details(movies, "Twilight Saga: Breaking Dawn - Part 2, The (2012)")
-    # movie_name, movie_id, genre = get_movie_details(movies, "Pirates of the Caribbean: Dead Man's Chest (2006)")
-    movie_name, movie_id, genre = get_movie_details(movies, "Scooby-Doo (2002)")
     
-    # movie_name, movie_id, genre = get_movie_details(movies, "Shrek 2 (2004)")
+    # Get movie details  : Uncomment any movie
+    movie_name, movie_id, genre = get_movie_details(movies, query)
 
     
     if movie_name is None:
@@ -93,9 +83,12 @@ def main():
 
     # Print top recommendations
     print("Recommendations are:\n")
-    print(top_movies.head(25))
+    print(top_movies.head(10))
     with open(f'Archive/{movie_name}_Suggestions.pkl', 'wb') as f:
         pickle.dump(top_movie_indices, f)
 # Run the main function
 if __name__ == "__main__":
-    main()
+   
+    moveis_query = ["Up (2009)","Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001)","Toy Story (1995)","Pirates of the Caribbean: Dead Man's Chest (2006)","Twilight Saga: Breaking Dawn - Part 1, The (2011)","Casino (1995)","Saw VI (2009)","Avengers: Infinity War - Part I (2018)","Lord of the Rings, The (1978)"]
+    for query in moveis_query:
+        main(query=query)

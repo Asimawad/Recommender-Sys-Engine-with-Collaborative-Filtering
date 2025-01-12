@@ -20,6 +20,12 @@ def create_train_test_df(ratings):
     # Create inverse mapping for movie indices
     idx_to_movie = {idx: movie_id for movie_id, idx in movie_idx_map.items()}
 
+    def indexing_users(user_id):
+        return user_idx_map[user_id]
+
+    def indexing_movies(movie_id):
+        return movie_idx_map[movie_id]
+
     # Add a column using a custom function
     ratings = ratings.with_columns([
         pl.col("userId").cast(pl.Int32),
@@ -27,10 +33,8 @@ def create_train_test_df(ratings):
         pl.col("rating").cast(pl.Float32),
         pl.col("userId").replace_strict(user_idx_map).alias("userIdx"),
         pl.col("movieId").replace_strict(movie_idx_map).alias("movieIdx"),])
-        # pl.col("userId").map_elements(indexing_users, return_dtype = pl.Int32).alias("userIdx"),
-        # pl.col("movieId").map_elements(indexing_movies,return_dtype = pl.Int32).alias("movieIdx"),
-    # method 2 - very good
-    def train_test_split_df(df, seed=0, test_size=0.1):
+
+    def train_test_split_df(df, seed=0, test_size=0.15):
         return df.with_columns(
             pl.int_range(pl.len(), dtype=pl.UInt32)
             .shuffle(seed=seed)
@@ -39,7 +43,7 @@ def create_train_test_df(ratings):
         ).partition_by("split", include_key=False)
 
 
-    def train_test_split(X,seed=0, test_size=0.1):
+    def train_test_split(X,seed=0, test_size= 0.15):
         (X_train, X_test) = train_test_split_df(X, seed=seed, test_size=test_size)
         return (X_train, X_test)
 
@@ -152,18 +156,18 @@ def get_specific_genre_idxs(movies_df, genre_list ,movieid_to_index  ,all_genres
      
 
 if __name__ == "__main__":
-    dataset = "ml-32m"
-    source_data_folder = f"Data/{dataset}"
-    ratings = pl.read_csv(f"{source_data_folder}/ratings.csv")
-    movies_df = pd.read_csv(f"{source_data_folder}/movies.csv")
-    output_data_folder=f"Training_data/{dataset}"
+    datasets = ["ml-100k","ml-25m","ml-32m"]
+    for dataset in datasets:
+        source_data_folder = f"Data/{dataset}"
+        ratings = pl.read_csv(f"{source_data_folder}/ratings.csv")
+        movies_df = pd.read_csv(f"{source_data_folder}/movies.csv")
+        output_data_folder=f"Training_data/{dataset}"
 
 
-    train_df,test_df,user_idx_map,movie_idx_map ,idx_to_user, idx_to_movie = create_train_test_df(ratings)
-    users_test,users_test_idxes,movies_test,movies_test_idxes = split(test_df)
-    users_train,users_train_idxes,movies_train,movies_train_idxes = split(train_df)
-    movies_df, movies_genres_array,genre_to_idx,movieid_to_feature_vector,all_genres = create_movie_data(movies_df,movie_idx_map)
-    specific_indices = get_specific_genre_idxs(movies_df= movies_df , genre_list = all_genres ,movieid_to_index = movie_idx_map ,all_genres = all_genres )
-    # print(type(specific_indices))
-    Save_data_split(output_data_folder,users_train,users_test,users_test_idxes,movies_test_idxes,users_train_idxes,movies_train_idxes,movies_train,movies_test,movies_genres_array)
-    save_idx_maps(output_data_folder,user_idx_map,  movie_idx_map ,idx_to_user,idx_to_movie,genre_to_idx,specific_indices)  
+        train_df,test_df,user_idx_map,movie_idx_map ,idx_to_user, idx_to_movie = create_train_test_df(ratings)
+        users_test,users_test_idxes,movies_test,movies_test_idxes = split(test_df)
+        users_train,users_train_idxes,movies_train,movies_train_idxes = split(train_df)
+        movies_df, movies_genres_array,genre_to_idx,movieid_to_feature_vector,all_genres = create_movie_data(movies_df,movie_idx_map)
+        specific_indices = get_specific_genre_idxs(movies_df= movies_df , genre_list = all_genres ,movieid_to_index = movie_idx_map ,all_genres = all_genres )
+        Save_data_split(output_data_folder,users_train,users_test,users_test_idxes,movies_test_idxes,users_train_idxes,movies_train_idxes,movies_train,movies_test,movies_genres_array)
+        save_idx_maps(output_data_folder,user_idx_map,  movie_idx_map ,idx_to_user,idx_to_movie,genre_to_idx,specific_indices)  

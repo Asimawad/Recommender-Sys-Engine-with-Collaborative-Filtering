@@ -1,15 +1,109 @@
 import numpy as np
 import pandas as pd
 import time
+import random
 import matplotlib.pyplot as plt
-from Data_processing import MovieLookups
-from Helper_Functions import (
+from src.Helper_Functions import (
     plot_likelihood,
     plot_rmse,
     setup_logging,
     setup_experiment_folder,
     save_model,
 )
+
+class MovieLookups():
+  def __init__(self,ratings):
+    self.ratings = ratings
+
+    self.user_idx_map      = {}
+    self.idx_user_map      = []
+    self.Users_idxed_list  = []
+
+    self.movie_idx_map     = {}
+    self.idx_movie_map     = []
+    self.movies_idxed_list = []
+
+    self.ratings['userId']  = self.ratings['userId'].astype('int32')
+    self.ratings['movieId'] = self.ratings['movieId'].astype('int32')
+    self.ratings['rating']  = self.ratings['rating'].astype('float32')
+
+  def create_lookups(self):
+      for user_id,movie_id,rating in zip(self.ratings['userId'], self.ratings['movieId'] , self.ratings['rating']):
+      # FOR THE USERS
+        user_idx = self.user_idx_map.setdefault(user_id, len(self.idx_user_map))   # check if id exist and return it, if not , set it to len(idx_user_map)
+        if user_idx == len(self.idx_user_map):                                    # if user is already there, no loop, if its new, enter the loop
+          self.idx_user_map.append(user_idx)                                      # add that user to the index to user map
+          self.Users_idxed_list.append([])                                     # create an empty list inside the big list for this user
+
+      # FOR THE MOVIES
+        movie_idx = self.movie_idx_map.setdefault(movie_id, len(self.idx_movie_map))
+        if movie_idx == len(self.idx_movie_map):
+            self.idx_movie_map.append(movie_idx)
+            self.movies_idxed_list.append([])
+
+     # Fill the respective lists
+        # self.Users_idxed_list[user_idx].sort()
+        self.Users_idxed_list[user_idx].append((movie_idx,rating))
+        # self.movies_idxed_list[movie_idx].sort()
+        self.movies_idxed_list[movie_idx].append((user_idx,rating))
+      return (self.Users_idxed_list , self.movies_idxed_list)
+
+  def get_movies_rated_by_user(self,user_id):
+    person_ID = self.user_to_idx[user_id]
+    return self.Users_idxed_list[person_ID]
+# Data_processing
+  def get_users_who_rated_movie(self,movie_id):
+    movie_ID = self.movie_idx_map[movie_id]
+    return self.movies_idxed_list[movie_ID]
+
+  def get_movie_degree(self,movie_id):
+    return len(self.get_users_who_rated_movie(movie_id))
+
+  def get_user_degree(self,user_id):
+    return len(self.get_movies_rated_by_user(user_id))
+
+#  defining the split function
+  def Users_split(self):
+      users_train_data = []
+      users_val_data   = []
+      # Split data for each user
+      for user_idx, user_data in enumerate(self.Users_idxed_list):
+        #  get the length of this user's list of movies
+          num_ratings = len(user_data)
+          # prepare a placeholder for this user
+          users_train_data.append([])
+          users_val_data.append([])
+          for data_tuple in user_data:
+            p = random.random()
+            if p > 0.9 :
+              # print( user_idx , user_data, users_train_data[user_idx],type( users_train_data[user_idx]))
+              # users_train_data[user_idx].append(())
+              users_val_data[user_idx].append(data_tuple)
+            else:
+              users_train_data[user_idx].append(data_tuple)
+              # users_val_data[user_idx].append(())
+      return users_train_data, users_val_data
+
+  def Movies_split(self):
+      movies_train_data = []
+      movies_val_data = []
+
+      # Split data for each user
+      for movie_idx, movie_data in enumerate(self.movies_idxed_list):
+        #  get the keng of this user's list of movies
+          # prepare a placeholder for this user
+          movies_train_data.append([])
+          movies_val_data.append([])
+          for data_tuple in movie_data:
+            p = random.random()
+            if p > 0.9 :
+              # print( user_idx , user_data, movies_train_data[user_idx],type( movies_train_data[user_idx]))
+              # movies_train_data[movie_idx].append(())
+              movies_val_data[movie_idx].append(data_tuple)
+            else:
+              movies_train_data[movie_idx].append(data_tuple)
+              # movies_val_data[movie_idx].append(())
+      return movies_train_data, movies_val_data
 
 
 # === Utility Functions ===
@@ -51,7 +145,6 @@ def update_user_biases(current_user_idx, list_of_favourite_movies, movies_biases
         n += 1
     if n != 0:  # Update only if user has data
         users_biases[current_user_idx] = (lambda_reg * sum_bias) / ((lambda_reg * n) + gamma)
-
 # Update Movie Biases
 def update_movie_biases(current_movie_idx, list_of_fans, users_biases, movies_biases, lambda_reg, gamma):
     sum_bias = 0
@@ -64,12 +157,13 @@ def update_movie_biases(current_movie_idx, list_of_fans, users_biases, movies_bi
 
 # === Main Script ===
 if __name__ == "__main__":
+    dataset = 'ml-25m'
     experiment_name = "Bias_only_model"  # Customize this name
-    experiment_folder = setup_experiment_folder(experiment_name)
+    experiment_folder = setup_experiment_folder(dataset,experiment_name)
     logger = setup_logging(experiment_folder)
 
-    movies = pd.read_csv('./Data/movies.csv')
-    ratings = pd.read_csv('./Data/ratings.csv')
+    movies = pd.read_csv(f'Data/{dataset}/movies.csv')
+    ratings = pd.read_csv(f'Data/{dataset}/ratings.csv')
 
 
     # Initialize the MovieLookups class
@@ -119,7 +213,6 @@ if __name__ == "__main__":
 
         train_rmse.append(trmse)
         valid_rmse.append(vrmse)
-
         logger.info(f"Epoch {epoch + 1}: Train RMSE = {trmse:.4f}, Valid RMSE = {vrmse:.4f} | Train Loss = {training_loss:.4f}, Validation Loss = {validation_loss:.4f}")
 
     # Plot Results

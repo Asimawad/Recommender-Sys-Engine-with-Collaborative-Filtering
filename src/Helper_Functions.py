@@ -20,24 +20,24 @@ def plot_likelihood(x_axis, y_axis, experiment_folder = "./" , plot_name = "Nega
   plt.xlabel('Iterations')
   plt.ylabel('loss')
   plot_filename = os.path.join(experiment_folder, f'_{plot_name}_experiment_plot.pdf')    
-  print(f"Plot saved as {plot_name} Curves")
+  print(f"Plot saved as {plot_name}")
   plt.savefig(plot_filename)
   plt.show()
   plt.close() 
+# Function to plot RMSE curves
+def plot_rmse(x_axis, y_axis, experiment_folder='./', plot_name="RMSE Curves"):
+    plt.figure(figsize=(10, 6))
+    plt.plot(range(x_axis), y_axis[0], label='Training RMSE')
+    plt.plot(range(x_axis), y_axis[1], c='r', label='Validation RMSE')
+    plt.xlabel('Iterations')
+    plt.ylabel('RMSE')
+    plt.legend()  # Adding the legend
+    plot_filename = os.path.join(experiment_folder, f'_{plot_name}_experiment_plot.pdf')    
+    print(f"Plot saved as {plot_name}")
+    plt.savefig(plot_filename)
+    plt.show()
+    plt.close()
 
-# Movie degrees
-def plot_rmse(x_axis,y_axis,experiment_folder = './',plot_name = "RMSE Curves"):
-  plt.figure(figsize=(10, 6))
-  plt.plot(range(x_axis) , y_axis[0])
-  plt.plot(range(x_axis) , y_axis[1] , c ='r')
-  plt.title('Training & Validation RMSE Curves')
-  plt.xlabel('Iterations')
-  plt.ylabel('RMSE')
-  plot_filename = os.path.join(experiment_folder, f'_{plot_name}_experiment_plot.pdf')    
-  print(f"Plot saved as {plot_name}  Curves")
-  plt.savefig(plot_filename)
-  plt.show()
-  plt.close() 
 
 def setup_logging(experiment_folder):
     # Create logger

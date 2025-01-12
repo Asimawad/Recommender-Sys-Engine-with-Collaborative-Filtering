@@ -1,0 +1,112 @@
+The user liked the movie: Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001), with id: 4896, The genre is Adventure|Children|Fantasy
+Recommendations are:
+
+                                               title                                        genre
+0     Harry Potter and the Chamber of Secrets (2002)                            Adventure|Fantasy
+1    Harry Potter and the Prisoner of Azkaban (2004)                       Adventure|Fantasy|IMAX
+2         Harry Potter and the Goblet of Fire (2005)              Adventure|Fantasy|Thriller|IMAX
+3      Harry Potter and the Half-Blood Prince (2009)       Adventure|Fantasy|Mystery|Romance|IMAX
+4   Harry Potter and the Order of the Phoenix (2007)                 Adventure|Drama|Fantasy|IMAX
+5  Harry Potter and the Deathly Hallows: Part 1 (...                Action|Adventure|Fantasy|IMAX
+6  Harry Potter and the Deathly Hallows: Part 2 (...  Action|Adventure|Drama|Fantasy|Mystery|IMAX
+7      Lord of the Rings: The Two Towers, The (2002)                            Adventure|Fantasy
+8  Interview with the Vampire: The Vampire Chroni...                                 Drama|Horror
+9  Lord of the Rings: The Return of the King, The...               Action|Adventure|Drama|Fantasy
+The user liked the movie: Toy Story (1995), with id: 1, The genre is Adventure|Animation|Children|Comedy|Fantasy
+Recommendations are:
+
+                     title                                              genre
+0       Toy Story 2 (1999)        Adventure|Animation|Children|Comedy|Fantasy
+1    Monsters, Inc. (2001)        Adventure|Animation|Children|Comedy|Fantasy
+2      Finding Nemo (2003)                Adventure|Animation|Children|Comedy
+3       Toy Story 3 (2010)   Adventure|Animation|Children|Comedy|Fantasy|IMAX
+4  Incredibles, The (2004)         Action|Adventure|Animation|Children|Comedy
+5    Lion King, The (1994)    Adventure|Animation|Children|Drama|Musical|IMAX
+6           Aladdin (1992)        Adventure|Animation|Children|Comedy|Musical
+7             Shrek (2001)  Adventure|Animation|Children|Comedy|Fantasy|Ro...
+8     Bug's Life, A (1998)                Adventure|Animation|Children|Comedy
+9     Jurassic Park (1993)                   Action|Adventure|Sci-Fi|Thriller
+The user liked the movie: Pirates of the Caribbean: Dead Man's Chest (2006), with id: 45722, The genre is Action|Adventure|Fantasy
+Recommendations are:
+
+                                               title                            genre
+0  Pirates of the Caribbean: The Curse of the Bla...  Action|Adventure|Comedy|Fantasy
+1    Pirates of the Caribbean: At World's End (2007)  Action|Adventure|Comedy|Fantasy
+2                                      Avatar (2009)     Action|Adventure|Sci-Fi|IMAX
+3  Lord of the Rings: The Return of the King, The...   Action|Adventure|Drama|Fantasy
+4  Harry Potter and the Sorcerer's Stone (a.k.a. ...       Adventure|Children|Fantasy
+5    Harry Potter and the Prisoner of Azkaban (2004)           Adventure|Fantasy|IMAX
+6         Harry Potter and the Goblet of Fire (2005)  Adventure|Fantasy|Thriller|IMAX
+7      Lord of the Rings: The Two Towers, The (2002)                Adventure|Fantasy
+8     Harry Potter and the Chamber of Secrets (2002)                Adventure|Fantasy
+9  Lord of the Rings: The Fellowship of the Ring,...                Adventure|Fantasy
+The user liked the movie: Twilight Saga: Breaking Dawn - Part 1, The (2011), with id: 91104, The genre is Adventure|Drama|Fantasy|Romance
+Recommendations are:
+
+                                               title                                   genre
+0                                    Twilight (2008)          Drama|Fantasy|Romance|Thriller
+1                 Twilight Saga: Eclipse, The (2010)           Fantasy|Romance|Thriller|IMAX
+2                                     Titanic (1997)                           Drama|Romance
+3                Twilight Saga: New Moon, The (2009)   Drama|Fantasy|Horror|Romance|Thriller
+4  Twilight Saga: Breaking Dawn - Part 2, The (2012)    Adventure|Drama|Fantasy|Romance|IMAX
+5                               Notebook, The (2004)                           Drama|Romance
+6                            The Hunger Games (2012)  Action|Adventure|Drama|Sci-Fi|Thriller
+7             The Hunger Games: Catching Fire (2013)            Action|Adventure|Sci-Fi|IMAX
+8                                Pretty Woman (1990)                          Comedy|Romance
+9         Harry Potter and the Goblet of Fire (2005)         Adventure|Fantasy|Thriller|IMAX
+The user liked the movie: Casino (1995), with id: 16, The genre is Crime|Drama
+Recommendations are:
+
+                             title                        genre
+0                Goodfellas (1990)                  Crime|Drama
+1              Pulp Fiction (1994)  Comedy|Crime|Drama|Thriller
+2            Godfather, The (1972)                  Crime|Drama
+3   Godfather: Part II, The (1974)                  Crime|Drama
+4                      Heat (1995)        Action|Crime|Thriller
+5            Reservoir Dogs (1992)       Crime|Mystery|Thriller
+6  Wolf of Wall Street, The (2013)           Comedy|Crime|Drama
+7      Seven (a.k.a. Se7en) (1995)             Mystery|Thriller
+8             Departed, The (2006)         Crime|Drama|Thriller
+9                  Scarface (1983)           Action|Crime|Drama
+The user liked the movie: Saw VI (2009), with id: 72129, The genre is Crime|Horror|Mystery|Thriller
+Recommendations are:
+
+                                title                    genre
+0                          Saw (2004)  Horror|Mystery|Thriller
+1  How to Build a Time Machine (2016)              Documentary
+2                  Band Waggon (1940)                   Comedy
+3           A Japanese Tragedy (1953)       (no genres listed)
+4                       Saw II (2005)          Horror|Thriller
+5                  El cimarrón (2006)            Drama|Romance
+6     Blair Witch Project, The (1999)    Drama|Horror|Thriller
+7            Die Akte Golgatha (2010)                Adventure
+8                    Ring, The (2002)  Horror|Mystery|Thriller
+9    Silence of the Lambs, The (1991)    Crime|Horror|Thriller
+The user liked the movie: Avengers: Infinity War - Part I (2018), with id: 122912, The genre is Action|Adventure|Sci-Fi
+Recommendations are:
+
+                                        title                             genre
+0                        Avengers, The (2012)      Action|Adventure|Sci-Fi|IMAX
+1              Guardians of the Galaxy (2014)           Action|Adventure|Sci-Fi
+2                             Iron Man (2008)           Action|Adventure|Sci-Fi
+3                             Deadpool (2016)    Action|Adventure|Comedy|Sci-Fi
+4  Captain America: The Winter Soldier (2014)      Action|Adventure|Sci-Fi|IMAX
+5              Avengers: Age of Ultron (2015)           Action|Adventure|Sci-Fi
+6        Independence Day (a.k.a. ID4) (1996)  Action|Adventure|Sci-Fi|Thriller
+7           Captain America: Civil War (2016)            Action|Sci-Fi|Thriller
+8                     Dark Knight, The (2008)           Action|Crime|Drama|IMAX
+9                       Thor: Ragnarok (2017)           Action|Adventure|Sci-Fi
+The user liked the movie: Lord of the Rings, The (1978), with id: 2116, The genre is Adventure|Animation|Children|Fantasy
+Recommendations are:
+
+                                               title                           genre
+0  Lord of the Rings: The Fellowship of the Ring,...               Adventure|Fantasy
+1      Lord of the Rings: The Two Towers, The (2002)               Adventure|Fantasy
+2  Lord of the Rings: The Return of the King, The...  Action|Adventure|Drama|Fantasy
+3  Star Wars: Episode VI - Return of the Jedi (1983)         Action|Adventure|Sci-Fi
+4   Star Wars: Episode I - The Phantom Menace (1999)         Action|Adventure|Sci-Fi
+5          Star Wars: Episode IV - A New Hope (1977)         Action|Adventure|Sci-Fi
+6  Star Wars: Episode V - The Empire Strikes Back...         Action|Adventure|Sci-Fi
+7  Star Wars: Episode II - Attack of the Clones (...    Action|Adventure|Sci-Fi|IMAX
+8  Star Wars: Episode III - Revenge of the Sith (...         Action|Adventure|Sci-Fi
+9          Hobbit: An Unexpected Journey, The (2012)          Adventure|Fantasy|IMAX

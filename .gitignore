@@ -1,4 +1,5 @@
 .venv/
 unused/
-Training_data
+Training_data/ml-25m
+Training_data/ml-32m
 Data

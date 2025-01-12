@@ -23,7 +23,7 @@ from src.Helper_Functions import (
 # === Class Definitions ===
 
 class RecommendationModel:
-    def __init__(self,n_users,n_movies,num_features,K_factors=25,lambda_reg=1,gamma=0.1,taw=10,n_epochs=20,jitter=1e-8):
+    def __init__(self,n_users,n_movies,num_features,K_factors=32,lambda_reg=2,gamma=1,taw=100,n_epochs=30,jitter=1e-8):
                 self.n_users = n_users
                 self.n_movies = n_movies
                 self.num_features = num_features
@@ -58,9 +58,6 @@ class RecommendationModel:
                         # Movie updates
                         movie_update_time = self._update_movies(movies_train, movies_train_idxes, movies_genres_array)
 
-                        # Feature updates
-                        genre_update_time = self._update_features(movies_genres_array)
-
                         # Calculate metrics
                         training_loss, train_rmse = self._calculate_metrics(users_train, users_train_idxes)
                         validation_loss, valid_rmse = self._calculate_metrics(users_test, users_test_idxes)
@@ -75,7 +72,6 @@ class RecommendationModel:
                         logger.info(f"Epoch {epoch + 1}/{self.n_epochs} : Train RMSE = {train_rmse:.4f} -- Valid RMSE = {valid_rmse:.4f} | Train Loss = {training_loss / 1e6:.1f}M -- Validation Loss = {validation_loss / 1e6:.1f}M")
                         logger.info(f" - User Updates Time: {user_update_time:.2f}s")
                         logger.info(f" - Movie Updates Time: {movie_update_time:.2f}s")
-                        logger.info(f" - Features Updates Time: {genre_update_time:.2f}s")
                         logger.info(f" - Total Epoch Time: {epoch_time:.2f}s\n")
 
     def _update_users(self, users_train, users_train_idxes):
@@ -89,13 +85,7 @@ class RecommendationModel:
         start_time = time.time()
         for current_movie_idx, (user_indices, rating) in zip(movies_train_idxes, movies_train):
             Update_movie_biases(current_movie_idx, user_indices, rating, self.user_bias, self.item_bias, self.lambda_reg, self.gamma, self.users_factors, self.movies_factors)
-            Update_movie_factors_with_features(current_movie_idx, user_indices, rating, self.users_factors, self.movies_factors, self.user_bias, self.item_bias, self.lambda_reg, self.taw, self.K_factors, movies_genres_array, self.genre_factors, self.jitter)
-            # Update_movie_factors( current_movie_idx,user_indices, rating , self.users_factors, self.movies_factors,self.user_bias, self.item_bias, self.lambda_reg, self.taw, self.K_factors, )
-        return time.time() - start_time
-
-    def _update_features(self, movies_genres_array):
-        start_time = time.time()
-        update_feature_factors(self.num_features, movies_genres_array, self.movies_factors, self.genre_factors, self.taw)
+            Update_movie_factors( current_movie_idx,user_indices, rating , self.users_factors, self.movies_factors,self.user_bias, self.item_bias, self.lambda_reg, self.taw, self.K_factors, )
         return time.time() - start_time
 
     def _calculate_metrics(self, users, users_idxes):
@@ -110,12 +100,13 @@ class RecommendationModel:
 
 # === Main Script === 
 if __name__ == "__main__":
-    Dataset = "ml-32m"
-    experiment_name = "B_U_V_F"  # Customize this name
-    experiment_folder = setup_experiment_folder(Dataset,experiment_name)
+    Datasets = ["ml-100k","ml-25m","ml-32m"]
+    dataset = Datasets[0]
+    experiment_name = "B_U_V"  # Customize this name
+    experiment_folder = setup_experiment_folder(dataset,experiment_name)
     logger = setup_logging(experiment_folder)
 
-    source_data_folder = f"Training_data/{Dataset}"
+    source_data_folder = f"Training_data/{dataset}"
     
     users_train, movies_train, movies_train_idxes, users_train_idxes, movies_genres_array = Load_training_data(source_data_folder)
     users_test, movies_test, users_test_idxes, movies_test_idxes = Load_test_data(source_data_folder)
@@ -125,10 +116,9 @@ if __name__ == "__main__":
     n_movies = len(movie_idx_map)
     num_features = movies_genres_array.shape[-1]
 
-    # Best Parameters after grid Search-> 
-    K_factors = 25 ;    EPOCHS = 30 ;  lambda_reg = 2 ; gamma = 1; taw =  100 ; std = np.sqrt(K_factors)
-    # K_factors = 16 ;    EPOCHS = 30 ;  lambda_reg = 0.1 ; gamma = 0.05 ; taw =  100 ; std = np.sqrt(K_factors)
-
+    # Best Parameters after grid Search->
+    # K_factors = 32 ;    EPOCHS = 30 ;  lambda_reg = 0.5 ; gamma = 0.5 ; taw =  10 ; std = np.sqrt(K_factors)
+    K_factors = 16 ;    EPOCHS = 30 ;  lambda_reg = 0.1 ; gamma = 0.05 ; taw =  100 ; std = np.sqrt(K_factors)
     # Initialize and train the model
     model = RecommendationModel(n_users = n_users, n_movies = n_movies, num_features = num_features,K_factors=K_factors,lambda_reg= lambda_reg,gamma=gamma,taw=taw,n_epochs=EPOCHS,jitter=1e-8)
     model.train(users_train, movies_train, users_train_idxes, movies_train_idxes, movies_genres_array, users_test, movies_test, users_test_idxes, movies_test_idxes, logger)
