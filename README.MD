@@ -79,8 +79,8 @@ Ensure you have the following installed:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your_username/your_repository.git
-   cd your_repository
+   git clone git@github.com:Asimawad/Recommender-Sys-Engine-with-Collaborative-Filtering.git
+   cd Recommender-Sys-Engine-with-Collaborative-Filtering
    ```
 
 2. **Set Up a Virtual Environment:**
